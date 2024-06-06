@@ -1,0 +1,132 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<div class="index-container">
+    <header class="@HeaderAnimation">
+        <h1>Welcome to Your Profile Space</h1>
+        <p>Connect, share, and explore your interests!</p>
+    </header>
+
+    <main>
+        <p>Ready to get started?</p>
+        <button class="btn" @onclick="NavigateToProfile">
+            <span>View Profile</span>
+            <i class="fas fa-user"></i>
+        </button>
+    </main>
+
+    <div class="cta">
+        <p>Don't have an account yet?</p>
+        <button class="btn btn-secondary" @onclick="NavigateToSignUp">
+            <span>Sign Up Now</span>
+            <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
+</div>
+
+@code {
+    private void NavigateToProfile()
+    {
+        NavigationManager.NavigateTo("/profile");
+    }
+
+    private void NavigateToSignUp()
+    {
+        NavigationManager.NavigateTo("/signup");
+    }
+
+    // Property to control header animation class
+    private string HeaderAnimation { get; set; } = "animated fadeIn";
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+
+        // Start animation after the component has rendered
+        if (firstRender)
+        {
+            HeaderAnimation = "animated fadeInDown"; // Change animation class for header
+            StateHasChanged(); // Notify Blazor to re-render the component with the updated class
+        }
+    }
+}
+
+<style>
+    /* Background image */
+    .index-container {
+        background-image: url('https://source.unsplash.com/1920x1080/?nature'); /* Background image from Unsplash */
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    /* Header styles */
+    h1 {
+        font-size: 4em;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+        color: #ffffff;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Button styles */
+    .btn {
+        padding: 15px 40px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 1.1em;
+        transition: background-color 0.3s ease;
+        margin-bottom: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-secondary {
+        background-color: #007bff;
+        margin-left: 10px;
+    }
+
+    .btn span {
+        margin-right: 10px;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
+
+    /* Call-to-action section */
+    .cta {
+        margin-top: auto;
+    }
+
+    /* Animation classes */
+    .animated {
+        transition: opacity 1s ease;
+        opacity: 0;
+    }
+
+    .fadeIn {
+        opacity: 1;
+    }
+
+    .fadeInDown {
+        transition: transform 1s ease, opacity 1s ease;
+        opacity: 1;
+        transform: translateY(0);
+    }
+</style>

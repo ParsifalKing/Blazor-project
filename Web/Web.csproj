@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Pages\Mentor.Pages\AddFaculty.razor.css" />
+    <None Remove="Pages\Mentor.Pages\Faculties.razor.css" />
+    <None Remove="Pages\Faculty.Pages\AddFaculty - Копировать.razor.css" />
+    <None Remove="Pages\Mentor.Pages\Mentors.razor.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Student.Pages\CreateStudent.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Student.Pages\Student.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Student.Pages\UpdateStudent.razor" />
+  </ItemGroup>
+</Project>

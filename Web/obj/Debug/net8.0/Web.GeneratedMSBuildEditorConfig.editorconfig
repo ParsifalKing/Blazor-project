@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web
+build_property.RootNamespace = Web
+build_property.ProjectDir = C:\Users\lenov\OneDrive\Desktop\C#\.Net\Homeworks\Homework 29\Blazor-project\Blazor_Demo\Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lenov\OneDrive\Desktop\C#\.Net\Homeworks\Homework 29\Blazor-project\Blazor_Demo\Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Pages/Faculty.Pages/UpdateFaculty.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdWx0eS5QYWdlc1xVcGRhdGVGYWN1bHR5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Pages/Faculty.Pages/AddFaculty.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdWx0eS5QYWdlc1xBZGRGYWN1bHR5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-nli59fc57a
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Pages/Faculty.Pages/Faculties.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdWx0eS5QYWdlc1xGYWN1bHRpZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rtadjr65i2
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-8ahen79ohv
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-06vxonwb36
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lenov/OneDrive/Desktop/C\#/.Net/Homeworks/Homework 29/Blazor-project/Blazor_Demo/Web/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
